@@ -6,6 +6,15 @@ class HelloWorld
     // Prints "Hello, World!" to the terminal window. 
     public static void main(String args[]) 
     { 
-        System.out.println("Hello, World!"); 
+        System.out.println("Hello, World!");
+        System.out.println("You watching a Coder development environment");
+        System.out.println("running in a dedicated container and pod");
+        System.out.println("in a cloud-based Kubernetes cluster");
+        System.out.println("");
+        System.out.println("You probably using a browser-based Terminal session");
+        System.out.println("or SSHed in from your local machine");
+        System.out.println("and were changing the Java file with");
+        System.out.println("a JetBrains editor in a browser");
+        System.out.println("or maybe even local Eclipse through SSH");
     } 
 } 
