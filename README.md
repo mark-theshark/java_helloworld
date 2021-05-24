@@ -4,11 +4,11 @@
 
 This is a classic simple Java console application that prints Hello World! to the command line console.
 
-# remote development environment buttons
-###### mark.demo.coder.com
-[![Open in Coder Enterprise](https://cdn.coder.com/embed-button.svg)](https://mark.demo.coder.com/environments/git?org=default&image=603c288a-c7a57070a87daf316c5c0e99&tag=ubuntu&service=github&repo=git@github.com:mtm20176/java_helloworld.git)
-###### mark.demo.coder.com ( workspaces-as-code coder.yaml )
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://mark.demo.coder.com/wac/build?project_oauth_service=github&template_oauth_service=github&project_url=git@github.com:mtm20176/java_helloworld.git&template_url=git@github.com:mtm20176/java_wac.git&template_ref=master)
+###### mark.demo.coder.com (workspace configuration-as-code)
+[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://mark.demo.coder.com/wac/build?template_oauth_service=github&template_url=git@github.com:mtm20176/java_helloworld.git&template_ref=main&template_filepath=.coder/coder.yaml)
+
+###### demo.cdr.dev (workspace configuration-as-code)
+[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://demo.cdr.dev/wac/build?template_oauth_service=github&template_url=git@github.com:mtm20176/java_helloworld.git&template_ref=main&template_filepath=.coder/coder.yaml)
 
 ###### Languages, frameworks used:
 
