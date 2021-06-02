@@ -4,7 +4,7 @@ workspace:
   specs:
     kubernetes:
       image:
-        value: index.docker.io/marktmilligan/intellij-2020-3.3-ult
+        value: index.docker.io/marktmilligan/intellij-ultimate
       container-based-vm:
         value: false
       cpu: 
