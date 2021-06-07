@@ -6,7 +6,7 @@ workspace:
       image:
         value: index.docker.io/marktmilligan/intellij-ultimate
       container-based-vm:
-        value: true
+        value: false
       cpu: 
         value: 4
       memory:
