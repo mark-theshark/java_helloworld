@@ -4,7 +4,7 @@ workspace:
   specs:
     kubernetes:
       image:
-        value: index.docker.io/marktmilligan/intellij-ultimate
+        value: index.docker.io/codercom/enterprise-intellij
       container-based-vm:
         value: false
       cpu: 
@@ -15,12 +15,6 @@ workspace:
         value: 10
       gpu-count:
         value: 0
-      labels:
-        value:   
-          com.coder.custom.javacversion: "14.0.2"
-          com.coder.custom.rdkversion: "14.0.2"
-          com.coder.custom.gradleversion: "6.7"
-          com.coder.custom.chargeback: "java_43"
   configure:
     start:
       value:
