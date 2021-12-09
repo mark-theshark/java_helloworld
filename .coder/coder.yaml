@@ -1,20 +1,12 @@
 version: 0.2
 workspace:
-  type: kubernetes
+  type: docker
   specs:
-    kubernetes:
+    docker:
       image:
         value: index.docker.io/codercom/enterprise-intellij:ubuntu
       container-based-vm:
         value: false
-      cpu: 
-        value: 4
-      memory:
-        value: 8 
-      disk:
-        value: 10
-      gpu-count:
-        value: 0
   configure:
     start:
       value:
