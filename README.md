@@ -7,6 +7,7 @@ This is a classic simple Java console application that prints Hello World! to th
 The template and image buttons point to a Coder deployment and use a custom image with JetBrains IntelliJ IDEA Ultimate. (currently Version: 2021.3.2)
 
 Changelog
+13 March 2022 | MM | added MANIFEST.MF, jar, and a package to the .java file
 11 March 2022 | MM | update IntelliJ IDEA to Ultimate 2021.3.2 (previously Community edition)
 
 ##### from template
