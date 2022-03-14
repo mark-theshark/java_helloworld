@@ -35,7 +35,7 @@ apps:
         # Port to use when dialing the application. If not specified it
         # inherits the application port. Optional.
         port: 8997
-  - name: IntelliJ IDEA Ultimate 2
+  - name: IntelliJ IDEA Ultimate 3
     # Application scheme - must be http or https. Required.
     scheme: http
     # Application port. Required.
