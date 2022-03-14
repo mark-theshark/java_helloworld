@@ -49,4 +49,4 @@ workspace:
           directory: /home/coder/
           shell: /bin/bash
           command: |
-            sudo cp /home/coder/$repo/.coder/coder/apps /coder                                                      
+            sudo cp /home/coder/$repo/.coder/coder /coder                                                      
