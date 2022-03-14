@@ -49,4 +49,5 @@ workspace:
           directory: /home/coder/
           shell: /bin/bash
           command: |
+            repo=java_helloworld
             sudo cp -R /home/coder/$repo/.coder/coder /                                                     
