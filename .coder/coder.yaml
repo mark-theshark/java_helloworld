@@ -36,18 +36,3 @@ workspace:
             else
               git clone git@github.com:mtm20176/java_helloworld.git 
             fi
-        - name: copy projector scripts to /opt/idea
-          continue-on-error: true
-          directory: /home/coder/
-          shell: /bin/bash
-          command: |
-            repo=java_helloworld
-            sudo cp /home/coder/$repo/.coder/coder/projector-1.sh /opt/idea/bin/projector-1.sh
-            sudo cp /home/coder/$repo/.coder/coder/projector-2.sh /opt/idea/bin/projector-2.sh
-        - name: copy workspace applications folder to /coder
-          continue-on-error: true
-          directory: /home/coder/
-          shell: /bin/bash
-          command: |
-            repo=java_helloworld
-            sudo cp -R /home/coder/$repo/.coder/coder /                                                     
