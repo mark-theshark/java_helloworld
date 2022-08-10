@@ -34,5 +34,5 @@ workspace:
             if [ -d $REPO_1_PATH ]; then
               echo 'java helloworld! repo already exists - skip clone'
             else
-              git clone git@github.com:mark-theshark/java_helloworld.git 
+              git clone git@github.com:sharkymark/java_helloworld.git 
             fi
